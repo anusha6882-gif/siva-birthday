@@ -165,11 +165,11 @@ function startCountdown() {
 
 const photos = [
 
-    "images/image1.jpg",
+    "image1.jpg",
 
-    "images/image2.jpg",
+    "image2.jpg",
 
-    "images/image3.jpg",
+    "image3.jpg",
 
 
 ];
