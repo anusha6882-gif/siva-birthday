@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Siva ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ================= PASSWORD SCREEN ================= -->
+
+    <div id="login">
+
+        <div class="login-box">
+
+            <h1>🔐 Birthday Surprise</h1>
+
+            <p>Only Siva can open this ❤️</p>
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+            >
+
+            <button onclick="checkPassword()">
+                🔓 Unlock
+            </button>
+
+            <p id="error"></p>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <main id="main">
+
+        <!-- Welcome -->
+
+        <section class="hero">
+
+            <h1>🎉 Happy Birthday My Dear Friend ❤️</h1>
+
+            <p id="typing"></p>
+
+            <div class="heart">💗</div>
+
+        </section>
+
+
+    
+
+
+        <!-- Memories -->
+
+        <section class="memories">
+
+            <h2>📸 Myy Gorilla 🦍</h2>
+
+            <div class="slideshow">
+
+                <img
+                    id="slide"
+                    src="images/image1.jpg"
+                    alt="Myy Gorilla 🦍"
+                >
+
+            </div>
+
+            <div class="slide-buttons">
+
+                <button onclick="previousPhoto()">⬅️</button>
+
+                <button onclick="nextPhoto()">➡️</button>
+
+            </div>
+
+        </section>
+
+
+        <!-- Secret Surprise -->
+
+        <section class="surprise">
+
+            <h2>🎁 Secret Surprise</h2>
+
+            <button onclick="revealGift()">
+                Reveal Gift ❤️
+            </button>
+
+            <div id="gift" class="hidden">
+
+                <h2>🎂 Happy Birthday Siva! 🎂</h2>
+
+                <p>
+                    Oru chapter mudinjadhunaala story mudinjidathu… un past vida beautiful-ah irukkura chapters innum un life-la irukku. ✨
+                    Soo,  un life-la oru new chapter start aagum...and that chapter will be filled with happiness, success, and love.❤️
+                </p>
+
+                <div class="gift-emoji">
+                    🎁 💖 🎉 🎂
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Secret Letter -->
+
+        <section class="letter">
+
+            <h2>💌 Secret Letter</h2>
+
+            <div class="letter-box">
+
+                <p>Dear Siva,</p>
+
+                <p>
+                    Happy Birthday Siva! Unakku pidicha madhiri un life-um beautiful ah irukanum. 🎉✨”
+                    I need our relationship with my endless Life....
+                </p>
+
+                <p>
+                    Your dreams will comes true.
+                    I am always there for you with any situation.I always supported you to achieve your goals....
+                </p>
+
+                <p>
+                    Enaku un reason nae illama pudikum...naa una 1ru nall tha pathan ana enn pudikum yethukaga pudikum nu enakku theriyala...
+                </p>
+
+                <p>
+                   Naan un life-la enna place-la irukken nu enakku theriyadhu…
+Aana nee enakku romba special.
+Always smile pannitu iru Siva…
+Because un smile-ku oru secret admirer irukanga nu nenachuko. 🤍✨
+                </p>
+
+                <p>
+                    Naa una miss panduvanu bayama eruku....una eppaum miss pannakudathunu nenaikurann
+                </p>
+
+                <p class="final-line">
+                    Miss you Siva...🫂
+                </p>
+
+                <p class="final-line">
+                    Once Again Happy Birthday Panni 🎂❤️
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Final -->
+
+        <section class="final">
+
+            <h1>🎉 HAPPY BIRTHDAY 🎉</h1>
+
+            <h2>SIVA ❤️</h2>
+
+            <p>Made with ❤️ by Anusha</p>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= MUSIC ================= -->
+
+    <audio id="music" loop>
+
+        <source src="song.mp3" type="audio/mpeg">
+
+        Your browser does not support audio.
+
+    </audio>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
